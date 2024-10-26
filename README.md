@@ -1,1 +1,1 @@
-# blood_bank_management_project
+# Blood-Bank-Management

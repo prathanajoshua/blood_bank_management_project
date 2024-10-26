@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d9534f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img.logo {
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #c9302c;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  background-color: #ac2925;
+  border-radius: 4px;
+}
+
+section {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #d9534f;
+}
+
+/* Form Styling */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #c9302c;
+}
+
+.form-image, .hero-img, .inventory-image, .records-image {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Home Page Styling */
+#home .hero {
+  text-align: center;
+}
+
+#home .hero h2 {
+  color: #c9302c;
+  margin-top: 20px;
+}
+
+#home .hero p {
+  color: #333;
+  font-size: 18px;
+}
+
+/* Table Styling for Inventory and Records */
+#inventoryData, #recordsData {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#inventoryData p, #recordsData p {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="C:/Users/USER/Downloads/Red and Blue Modern Blood Bank Logo (2) (1).png" alt="Blood Bank Logo" class="logo">
+        <h1>Blood Bank Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="donor.html">Donor Registration</a></li>
+                <li><a href="recipient.html">Recipient Registration</a></li>
+                <li><a href="inventory.html">Blood Inventory</a></li>
+                <li><a href="records.html">Donation Records</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="donation-records">
+        <h2>Donation Records</h2>
+
+        <!-- Donation Form -->
+        <form id="donationForm">
+            <input type="text" id="donorId" placeholder="Donor ID" required />
+            <input type="number" id="quantity" placeholder="Quantity (units)" required />
+            <button type="submit">Record Donation</button>
+        </form>
+
+        <div id="recordsData">
+            <h3>Past Donations:</h3>
+            <div id="recordsList">
+                <!-- Dynamic records will be injected here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blood Bank Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

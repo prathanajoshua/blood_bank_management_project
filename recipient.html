@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipient Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="C:\Users\USER\Downloads\Red and Blue Modern Blood Bank Logo (2) (1).png" alt="Blood Bank Logo" class="logo">
+        <h1>Blood Bank Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="donor.html">Donor Registration</a></li>
+                <li><a href="recipient.html">Recipient Registration</a></li>
+                <li><a href="inventory.html">Blood Inventory</a></li>
+                <li><a href="records.html">Donation Records</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="recipient-registration">
+        <h2>Recipient Registration</h2>
+        
+        <form id="recipientForm">
+            <label for="rname">Name:</label>
+            <input type="text" id="rname" required minlength="3">
+            <label for="rbloodType">Blood Type:</label>
+            <input type="text" id="rbloodType" required pattern="^(A|B|AB|O)[+-]$">
+            <label for="rcontact">Contact:</label>
+            <input type="text" id="rcontact" required pattern="\d{10}">
+            <label for="rlocation">Location:</label>
+            <input type="text" id="rlocation" required minlength="3">
+            <button type="submit">Register Recipient</button>
+        </form>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
